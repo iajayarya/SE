@@ -1,0 +1,35 @@
+.homeFirst
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+padding-top: 20px;
+width: 100%;
+
+}
+
+
+.container
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  width: 100%;
+}
+.homeFirst1
+{
+  font-size: 60px;
+  color: rgb(0, 255, 145);
+  margin-left: 40px;
+}
+.homeFirst2{
+  display: flex;
+  justify-content:flex-start;
+  margin-left: 40px;
+  width: 100%;
+}
+.homeFirst2>div{
+  margin-right: 50px;
+}

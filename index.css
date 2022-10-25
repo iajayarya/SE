@@ -1,0 +1,45 @@
+body .outNavbar  {
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-inverse {
+   height: 20px;
+   border: 0px;
+}
+.leftNavPart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+  
+}
+
+.homeFirst{
+  display: flex;
+  flex-direction: column;
+
+  height: 60vh;
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.leftNavPart li{
+margin-left: 5px;
+margin-top: 5px;
+}
+
+hr {
+  color: black;
+  background-color: black;
+}
